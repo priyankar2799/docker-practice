@@ -2,5 +2,5 @@ FROM python:latest
 WORKDIR /app
 COPY . /app
 
-RUN pip install -r flask
+RUN pip install  flask
 CMD ["python3", "main.py"]
